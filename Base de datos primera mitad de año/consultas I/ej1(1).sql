@@ -1,0 +1,17 @@
+insert into cliente value(214311, "diosos", 90, 2200-07-23, "Davuada");
+insert into cliente value(21441, "ualal", 30, 2200-04-27, "opoppi");
+insert into cliente value(213141, "tomat", 320, 2200-07-73, "timat");
+insert into cliente value (143141, "ctroen", 3990, 2290-09-23, "scroto");
+insert into producto value(2020, "pan", 20);
+insert into producto value(200, "telegono ", 40);
+insert into producto value(20, "computadora", 10);
+insert into producto value(202, "almedra", 50);
+insert into proveedores value(214311, "diosos", 90, 2200-07-23);
+insert into proveedor value(21441, "ualal", 30, 2200-04-27);
+insert into proveedor value(213141, "tomat", 320, 2200-07-73);
+insert into cliente value (143141, "ctroen", 3990, 2290-09-23);
+select nombre, proveedor from cliente;
+select apellido from clientes where nombre=juan and fechadenacimiento<"2006-01-01";
+select table1_codigo,codigo, nombre, precio unitario from proveedor;
+select dni from cliente where codigo=1; 
+update clientes set direccion = 5454 where dni=1111;
